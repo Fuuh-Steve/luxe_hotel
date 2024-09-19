@@ -1,0 +1,460 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+/* Header */
+.nav1 {
+    background: radial-gradient(rgba(4,9,30,0.7),rgba(1, 1, 24, 0.7)) #131010;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.nav1 a {
+    color: #fff;
+}
+
+#home {
+    color: gold;
+}
+
+.nav1 a:hover {
+    color: #fff;
+}
+.logo1 {
+    flex: 1;
+}
+
+.logo1 a {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.logo1 a .luxe {
+    color: gold;
+}
+
+.logo1 a:hover {
+    color: #fff;
+}
+
+.logo1 img {
+    width: 70px;
+    margin-right: 10px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu a:hover {
+    transform: scale(1.1);
+}
+
+.menu li {
+    padding: 15px 10px;
+    font-size: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    position: relative;
+}
+
+.menu li a:before {
+    content: '';
+    width: 0px;
+    height: 3px;
+    background: gold;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: 0.5s;
+}
+
+.menu li:hover a:before {
+    width: 70%;
+}
+
+.toggle {
+    font-size: 30px;
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .nav1 {
+        display: block;
+        position: relative;
+        padding: 15px 20px;
+    }
+    .menu {
+        margin-top: 15px;
+        display: none;
+    } 
+    .menu.active, .toggle {
+        display: block;
+    }
+    .toggle {
+        position: absolute;
+        top: 40px;
+        right: 20px;
+    }
+    
+}
+/* Header Ends */
+
+/*contact head start */
+.contact-us .contact-head{
+    background: radial-gradient(rgba(4,9,30,0.7),rgba(1, 1, 24, 0.7)), url('Images/carousel-2.jpg') no-repeat center center/cover;
+    height: 240px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contact-us .contact-head h1{
+    font-size: 90px;
+    font-weight: 600;
+    color: white;
+}
+
+.contact-us .contact-main1 .contact-main1-txt{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contact-us .contact-main1 .contact-main1-txt h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.contact-us .contact-main1 .contact-main1-txt h3 span{
+    color: gold;
+}
+
+.contact-us .contact-main1 .contact-main1-txt p{
+    font-size: 20px;
+    font-weight: 600;
+    width: 40%;
+    margin: auto;
+}
+
+/* contact head end */
+/* contact map start */
+
+.contact-us .contact-main1 .contact-map iframe{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+/* contact map end */
+
+/* contact page info and form start */
+.contact-us .contact-main2 .info-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+/* contact info start */
+.contact-us .contact-main2 .info-form .contact-info-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contact-us .contact-main2 .info-form .contact-info-content .contact-info1{
+    margin-bottom: 20px;
+}
+.contact-us .contact-main2 .info-form .contact-info-content .contact-info1 div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 22px;
+    color: gold;
+}
+
+.contact-us .contact-main2 .info-form .contact-info-content .contact-info1 div i{
+    margin-right: 10px;
+}
+
+.contact-us .contact-main2 .info-form .contact-info-content .contact-info1 p{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+/* contact info end */ 
+/* contact form page start */
+.contact-us .contact-main2 .info-form .form{
+    width: 90%;
+    text-align: center;
+}
+.contact-us .contact-main2 .info-form .form form .form1 input{
+    outline: none;
+    width: 100%;
+    height: 45px;
+    margin-top: 15px;
+    border: 1px solid gray;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+}
+
+.contact-us .contact-main2 .info-form .form form .form1 #txt{
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 17px;
+    color: black;
+    font-weight: 600;
+    resize: none;
+}
+
+/* form submit button start */
+.contact-us .contact-main2 .info-form .form form .form1 button{
+    width: 60%;
+    height: 50px;
+    background-color: gold;
+    border: transparent;
+    color: white;
+}
+/* form submit button end */
+/* contact form page end */
+/* contact page info and form end */
+/* News letter start */
+.news-letter{
+    width: 70%;
+    border:1px solid rgb(202, 195, 195);
+    text-align: center;
+    position: relative;
+    top: 80px;
+    margin: auto;
+}
+.news-letter .news-letter1{
+    border:1px solid rgb(202, 195, 195);
+    margin: 5px;
+}
+.news-letter .news-letter1 .news-letter2{
+    border:2px solid white;
+    background-color: white;
+    margin: 5px;
+}
+.news-letter .news-letter1 .news-letter2 .news-letter3{
+    border:2px solid transparent;
+    background-color: white;
+    margin: 50px;
+}
+.news-letter .news-letter1 .news-letter2 .news-letter3 h2{
+    font-size: 35px;
+}
+.news-letter .news-letter1 .news-letter2 .news-letter3 h2 span{
+    color: gold;
+}
+
+.news-letter .news-letter1 .news-letter2 .news-letter3 .input-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.news-letter .news-letter1 .news-letter2 .news-letter3 .input-btn input{
+    width: 80%;
+    height: 70px;
+    outline: none;
+    font-size: 17px;
+    color: gray;
+}
+.news-letter .news-letter1 .news-letter2 .news-letter3 .input-btn  .btn{
+    position: relative;
+    margin-left: -120px;
+    width: 110px;
+    height: 50px;
+    background-color: gold;
+    border: 1px solid transparent;
+    color: white;
+}
+
+/* News letter end */
+
+/* footer start */
+/* Footer Style */
+footer{
+    padding: 50px 10px 0px 10px;
+    font-family: sans-serif;
+    cursor: pointer;
+    background-color: black;
+}
+footer .footer-main{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+    background-color: black;
+    padding-top: 100px;
+}
+footer .footer-main  .footer-col{
+    width: 320px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+footer .footer-main  .footer-col img{
+    width: 150px;
+    border: 1px solid gold;
+    transition: 0.5s ease;
+}
+footer .footer-main  .footer-col img:hover{
+    box-shadow: 0 2px 15px 0 gold, 0 2px 15px 0 gold;
+    transform: scale(1.1);
+}
+footer .footer-main  .footer-col h2{
+    margin-bottom: 20px;
+}
+footer .footer-main  .footer-col h2 span{
+    color: gold;
+}
+
+footer .footer-main .footer-col ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    transition: 0.5s ease;
+    font-weight: 600;
+    text-align: start;
+    width: 150px;
+}
+
+footer .footer-main .footer-col .lst1{
+    width: 50%;
+    margin: auto;
+    padding-left: 20px;
+}
+footer .footer-main .footer-col .lst2{
+    width: 50%;
+    margin: auto;
+    padding-left: 20px;
+}
+footer .footer-main .footer-col ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer-main .longer-width{
+    width: 350px;
+    text-align: start;
+    padding-left: 20px;
+}
+
+footer .footer-main .footer-col .contact-info1 .contact-info1i{
+    margin-bottom: 10px;
+}
+footer .footer-main .footer-col .contact-info1 .contact-info1i i{
+    margin-right: 10px;
+}
+footer .footer-main .footer-col .contact-info2 .social-icons{
+    margin-top: 20px;
+    font-size: 30px;
+}
+footer .footer-main .footer-col .contact-info2 .social-icons a{
+    position: relative;
+    color: white;
+    width:50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    transition: 0.5s;
+}
+footer .footer-main .footer-col .contact-info2 .social-icons a:hover{
+    color: gold;
+    background-color: white;
+    transform: scale(1.1);
+}
+
+footer .footer-main .footer-col .contact-info2 .social-icons a .x{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+footer .footer-main .footer-col .contact-info2 .social-icons a .insta{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+footer .footer-main .footer-col .contact-info2 .social-icons a .fb{
+    position: absolute;
+    top: 10px;
+    left: 13px;
+}
+footer .footer-main .footer-col .contact-info2 .social-icons a .ggle{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+footer .footer-main .footer-col .contact-info2 .social-icons a .ttok{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+footer .copyright p{
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    margin: auto;
+    padding-bottom: 20px;
+}
+    
+    
+
+    
+    /* back to top */
+    html {
+        scroll-behavior: smooth;
+    }
+    .back-to-top {
+        position: fixed;
+        bottom: 30px;
+        right: 18px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #000000;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: 0.2 ease-out;
+    }
+    
+    .back-to-top span {
+        color: #fff;
+        font-size: 4px;
+        transition: 0.2s ease-out;
+    }
+    
+    .back-to-top:hover {
+        background-color: gold;
+    }
+    
+    .back-to-top:hover span {
+        transform: translateY(-4px)
+    }
+    /* Footer style End */
+    /* footer end */ 

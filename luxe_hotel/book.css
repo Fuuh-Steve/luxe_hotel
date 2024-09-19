@@ -1,0 +1,173 @@
+
+/* booking start */
+.reservation{
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+.reservation h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.reservation h2 span{
+    color: gold;
+}
+.reservation .form{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.reservation .form .logo img{
+    transition: 2.5s;
+    border: 1px solid gold;
+    width: 450px;
+    margin-top: 80px;
+}
+.reservation .form .logo img:hover{
+    box-shadow: 0 2px 15px 0 gold, 0 2px 15px 0 gold;
+}
+.reservation .form .form-main .form-input{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 600px;
+}
+.reservation .form .form-main .form-input .form1 .form-element{
+    margin-top: 20px;
+    font-size: 1em;
+    color: white;
+}
+
+.reservation .form .form-main .form-input .form1 form #input-1 input{
+    width: 90%;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    margin-right: 50px;
+    outline: none;
+    border-color: gold;
+    color: gold;
+    background-color: transparent;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.reservation .form .form-main .form-input .form1 form #input-2 input{
+    width: 90%;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    margin-right: 50px;
+    outline: none;
+    border-color: gold;
+    color: gold;
+    background-color: transparent;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.reservation .form .form-main .form-input  .form1 form #input-3 input{
+    width: 90%;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    margin-right: 50px;
+    outline: none;
+    border-color: gold;
+    color: gold;
+    background-color: transparent;
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.reservation .form .form-main .form-input  .form2 form #input-4 input{
+    width: 90%;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    margin-right: 50px;
+    outline: none;
+    border-color: gold;
+    color: gold;
+    background-color: transparent;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.reservation .form .form-main .form-input  .form2 form #input-5 input{
+    width: 90%;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    margin-right: 50px;
+    outline: none;
+    border-color: gold;
+    color: gold;
+    background-color: transparent;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.reservation .form .form-main .form-input  .form2 form #input-6 input{
+    width: 90%;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    margin-right: 50px;
+    outline: none;
+    border-color: gold;
+    color: gold;
+    background-color: transparent;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.reservation .form .form-main .request-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.reservation .form .form-main .request-btn #txt{
+    width: 90%;
+    height: 100px;
+    margin-bottom: 20px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid gold;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.reservation .form .form-main .request-btn button{
+    width: 90%;
+    height: 50px;
+    background-color: gold;
+    border: transparent;
+    color: white;
+    font-size: 1.2em;
+}
+/* booking end*/

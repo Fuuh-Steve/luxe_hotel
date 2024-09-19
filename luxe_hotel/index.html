@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the most Extraordinary Hotel in Bamenda, North West">
+    <link rel="icon" href="Images\logo.jpg" type="image/icon type">
+    <title>THE LUXE HOTEL | WELCOME</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"> -->
+</head>
+<body>
+
+    <nav class="nav1">
+        <div class="logo1">
+           <a href="#"><img src="Images\logo.jpg" alt="logo1"><strong>The <span class="luxe">Luxe</span> Hotel</strong></a>
+        </div>
+        
+        <div class="toggle">
+            <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
+        </div>
+        <ul class="menu">
+            <li><a href="index.html" id="home"><strong>Home</strong></a></li>
+            <li><a href="room.html">Rooms</a></li>
+            <li><a href="ABOUT US.HTML">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+
+        $(function(){
+            $(".toggle").on("click", function(){
+                if($(".menu").hasClass("active")){
+                    $(".menu").removeClass("active");
+                    $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
+                } else{
+                    $(".menu").addClass("active");
+                    $(this).find("a").html("<ion-icon name='close-outline'></ion-icon>");
+                }
+            })
+        });
+    </script>
+
+    
+
+    <div id="showcase">
+        <div class="container">
+            <div class="showcase-content">
+                <h1><span class="text-primary"> Enjoy</span> Your Stay</h1>
+                <p class="lead">ipsum dolor sit amet consectetur adipisicing elit. Nulla eligendi vero voluptates omnis non repellendus ab tempora. Veritatis, magni voluptas rerum cupiditate illo sit! Reprehenderit quibusdam id quo quisquam debitis!</p>
+                <a class="btn" href="ABOUT US.HTML"><strong>About Our Hotel</strong></a>
+            </div>
+        </div>
+    </div>
+
+    <hr><hr>
+
+    <section id="home-info" class="bg-dark">
+        <div class="home-main">
+            <div class="info-img-content">
+                <div class="info-img">
+                    
+                </div>
+                <div class="info-content">
+                    <h2 style="font-size: 40px;">ABOUT <span>US</span></h2>
+                    <h2><span class="text-primary">The History </span>Of Our Hotel</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi et ducimus iste, ipsam asperiores pariatur praesentium consequuntur rem obcaecati ab magnam exercitationem unde aspernatur. Nihil natus impedit ipsam dignissimos saepe?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium eveniet sed sapiente saepe accusantium rem iure impedit adipisci autem harum.</p>
+                    <a href="ABOUT US.HTML" class="btn btn-light">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr><hr>
+
+    <!-- our services -->
+     <div class="services">
+        <div class="services-content">
+            <div class="services-header">
+                <div class="header-content">
+                    <h3>OUR SERVICES</h3>
+                </div>
+                <p>Explore Our <span>Services</span></p>
+            </div>
+            <div class="services-boxes">
+                <div class="box">
+                    <div class="box-card">
+                        <div class="items">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                        <h2>Rooms & Appartment</h2>
+                        <p>Erat ipsum justo amet duo et elitr dolor, est duo eos lorem sed diam sted diam sed sted lorem</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-card">
+                        <div class="items">
+                            <i class="fa-solid fa-utensils"></i>
+                        </div>
+                        <h2>Food & Restaurant</h2>
+                        <p>Erat ipsum justo amet duo et elitr dolor, est duo eos lorem sed diam sted diam sed sted lorem</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-card">
+                        <div class="items">
+                            <i class="fa-solid fa-spa"></i>
+                        </div>
+                        <h2>Spa & Fitness</h2>
+                        <p>Erat ipsum justo amet duo et elitr dolor, est duo eos lorem sed diam sted diam sed sted lorem</p>
+                    </div>
+                </div>
+            </div>
+            <div class="services-boxes">
+                <div class="box">
+                    <div class="box-card">
+                        <div class="items">
+                            <i class="fa-solid fa-person-swimming"></i>
+                        </div>
+                        <h2>Sports & Gaming</h2>
+                        <p>Erat ipsum justo amet duo et elitr dolor, est duo eos lorem sed diam sted diam sed sted lorem</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-card">
+                        <div class="items">
+                            <i class="fa-solid fa-champagne-glasses"></i>
+                        </div>
+                        <h2>Event & Party</h2>
+                        <p>Erat ipsum justo amet duo et elitr dolor, est duo eos lorem sed diam sted diam sed sted lorem</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-card">
+                        <div class="items">
+                            <i class="fa-solid fa-dumbbell"></i>
+                        </div>
+                        <h2>Gym & Yoga</h2>
+                        <p>Erat ipsum justo amet duo et elitr dolor, est duo eos lorem sed diam sted diam sed sted lorem</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- services End -->
+    <hr><hr>
+
+    <div class="content">
+        <div class="content-main">
+            <div class="room-header">
+                <h1><span>OUR ROOMS</span></h1>
+                <p>Explore Our <span>Rooms</span></p>
+            </div>
+            <div class="content-main1">
+                <div class="content-main1i">
+                    <div class="content-main1i-row">
+                        <div class="image">
+                            <img src="Images\Premium king.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h4>Premium King Room</h4>
+                            <h3><span>50,000 XAF</span>/Pernight</h3>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="r-o">Size:</td>
+                                        <td>30 ft</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">Capacity:</td>
+                                        <td>Max persion 1</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">Bed:</td>
+                                        <td>King Beds</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">Services:</td>
+                                        <td>Wifi, Television, Bathroom,...</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="btns">
+                                <a href="#"><button id="btns1">View Details</button></a>
+                                <a href="book.html"><button id="btns2">Book</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-main1i-row">
+                        <div class="image">
+                            <img src="Images\Double.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h4>Deluxe Room</h4>
+                            <h3><span>40,000 XAF</span>/Pernight</h3>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="r-o">Size:</td>
+                                        <td>30 ft</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">Capacity:</td>
+                                        <td>Max persion 1</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">Bed:</td>
+                                        <td>King Beds</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">Services:</td>
+                                        <td>Wifi, Television, Bathroom,...</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="btns">
+                                <a href="#"><button id="btns1">View Details</button></a>
+                                <a href="book.html"><button id="btns2">Book</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-main1i-row">
+                        <div class="image">
+                            <img src="Images\double room.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h4>Double Room</h4>
+                            <h3><span>35,000 XAF</span>/Pernight</h3>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="r-o">Size:</td>
+                                        <td>30 ft</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">Capacity:</td>
+                                        <td>Max persion 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">Bed:</td>
+                                        <td>King Beds</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">Services:</td>
+                                        <td>Wifi, Television, Bathroom,...</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="btns">
+                                <a href="#"><button id="btns1">View Details</button></a>
+                                <a href="book.html"><button id="btns2">Book</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+    <div class="clr"></div>
+
+    <div class="news-letter">
+        <div class="news-letter1">
+            <div class="news-letter2">
+                <div class="news-letter3">
+                    <h2>Subscribe our <span>NEWS LETTER</span></h2>
+                    <div class="input-btn">
+                        <input type="text" placeholder="Enter your Email">
+                        <button type="button" class="btn">SUBMIT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-main">
+            <div class="footer-col">
+                <h2>THE <span>LUXE HOTEL</span></h2>
+                <img src="Images/logo.jpg" alt="">
+            </div>
+            <div class="footer-col">
+                <h2>HO<span>TEL</span></h2>
+                <ul class="lst1">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="room.html">Rooms</a></li>
+                    <li><a href="ABOUT US.HTML">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="index.html">Privacy Policy</a></li>
+                    <li><a href="services.html">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h2>SER<span>VICES</span></h2>
+                <ul class="lst2">
+                    <li><a  href="">Food & Restaurant</a></li>
+                    <li><a  href="">Spa & Fitness</a></li>
+                    <li><a  href="">Sports & Gaming</a></li>
+                    <li><a  href="">Event & Party</a></li>
+                    <li><a  href="">GYM & Yoga</a></li>
+                </ul>
+            </div>
+            <div class="footer-col longer-width" >
+                <h2>CONT<span>ACT US</span></h2>
+                <div class="contact-info">
+                    <div class="contact-info1">
+                        <div class="contact-info1i">
+                            <i class="fa-solid fa-location-dot"></i>Bamenda, BitsValley, Longla Street
+                        </div>
+                        <div class="contact-info1i">
+                            <i class="fa-solid fa-phone"></i>(+237) 675 432 100
+                        </div>
+                        <div class="contact-info1i">
+                            <i class="fa-solid fa-envelope"></i>theluxehotel@gmail.com
+                        </div>
+                    </div>
+                    <div class="contact-info2">
+                        <h2>Social <span>Media Links</span></h2>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-x-twitter  x"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram insta"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f fb"></i></a>
+                            <a href="#"><i class="fa-brands fa-google ggle"></i></a>
+                            <a href="#"><i class="fa-brands fa-tiktok ttok"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Bitsvalley 2024. All Rights Reserved</p>
+        </div>
+    </footer>
+    <!-- BACK TO TOP ARROW -->
+    <a href="#" class="back-to-top">
+        <span class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#fff"><path d="M435-139v-508L202-415l-63-65 342-342 341 341-64 66-232-232v508h-91Z"/></svg></span>
+    </a>
+
+
+</body>
+
+</body>
+</html>

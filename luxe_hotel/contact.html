@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the most Extraordinary Hotel in Bamenda, North West">
+    <link rel="icon" href="Images\logo.jpg" type="image/icon type">
+    <title>THE LUXE HOTEL | WELCOME</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <nav class="nav1">
+        <div class="logo1">
+        <a href="#"><img src="Images\logo.jpg" alt="logo1"><strong>The <span class="luxe">Luxe</span> Hotel</strong></a>
+        </div>
+        
+        <div class="toggle">
+            <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
+        </div>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="room.html">Rooms</a></li>
+            <li><a href="ABOUT US.HTML">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html" id="home"><strong>Contact Us</strong></a></li>
+        </ul>
+    </nav>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+
+        $(function(){
+            $(".toggle").on("click", function(){
+                if($(".menu").hasClass("active")){
+                    $(".menu").removeClass("active");
+                    $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
+                } else{
+                    $(".menu").addClass("active");
+                    $(this).find("a").html("<ion-icon name='close-outline'></ion-icon>");
+                }
+            })
+        });
+    </script>
+    <!-- Header end -->
+
+    <div class="contact-us">
+        <div class="contact-head">
+            <h1>Contact Us</h1>
+        </div>
+        <hr><hr>
+
+        <div class="contact-main1">
+            <div class="contact-main1-txt">
+                <h3><span>CONTACT</span> For Any Query</h3>
+                <p>contact us if you have an issue with any hotel service or if u want to book a place for anyome</p>
+            </div>
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15872.690763160874!2d10.1454805!3d5.9709402!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105f3d8a4a5b5061%3A0x72c7df9e4079dbaa!2sBitsvalley!5e0!3m2!1sen!2scm!4v1724304178270!5m2!1sen!2scm"
+                 width="600" height="450" style="border:0; filter: invert(100%) contrast(83%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <hr><hr>
+    
+        <div class="contact-main2">
+            <div class="info-form">
+                <div class="contact-info-content">
+                    <div class="contact-info1">
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i><h3></h3>
+                        </div>
+                        <p>Bitsvalley, Bamenda, Longla Street</p>
+                    </div>
+                    <div class="contact-info1">
+                        <div>
+                            <i class="fa-solid fa-phone"></i><h3></h3>
+                        </div>
+                        <p>+237 679996468</p>
+                    </div>
+                    <div class="contact-info1">
+                        <div>
+                            <i class="fa-solid fa-envelope"></i><h3></h3>
+                        </div>
+                        <p>theluxe_hotel@gmail.com</p>
+                    </div>
+                </div>
+                <div class="form">
+                    <form action="#" method="post">
+                        <div class="form1">
+                            <input type="text" placeholder="ENTER FULL NAME">
+                        </div>
+                        <div class="form1">
+                            <input type="number" placeholder="ENTER PHONE NUMBER">
+                        </div>
+                        <div class="form1">
+                            <input type="text" placeholder="EMAIL(OPTIONAL)">
+                        </div>
+                        <div class="form1">
+                            <input type="text" placeholder="SUBJECT">
+                        </div>
+                        <div class="form1">
+                            <textarea name="text" id="txt" placeholder="SEND A MESSAGE" ></textarea>
+                        </div>
+                        <div class="form1">
+                            <button type="submit">SUBMIT</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="news-letter">
+        <div class="news-letter1">
+            <div class="news-letter2">
+                <div class="news-letter3">
+                    <h2>Subscribe Our <span>NEWS LETTER</span></h2>
+                    <div class="input-btn">
+                        <input type="text" placeholder="Enter your Email">
+                        <button type="button" class="btn">SUBMIT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-main">
+            <div class="footer-col">
+                <h2>THE <span>LUXE HOTEL</span></h2>
+                <img src="Images/logo.jpg" alt="">
+            </div>
+            <div class="footer-col">
+                <h2>HO<span>TEL</span></h2>
+                <ul class="lst1">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="room.html">Rooms</a></li>
+                    <li><a href="ABOUT US.HTML">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="index.html">Privacy Policy</a></li>
+                    <li><a href="services.html">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h2>SER<span>VICES</span></h2>
+                <ul class="lst2">
+                    <li><a  href="">Food & Restaurant</a></li>
+                    <li><a  href="">Spa & Fitness</a></li>
+                    <li><a  href="">Sports & Gaming</a></li>
+                    <li><a  href="">Event & Party</a></li>
+                    <li><a  href="">GYM & Yoga</a></li>
+                </ul>
+            </div>
+            <div class="footer-col longer-width" >
+                <h2>CONT<span>ACT US</span></h2>
+                <div class="contact-info">
+                    <div class="contact-info1">
+                        <div class="contact-info1i">
+                            <i class="fa-solid fa-location-dot"></i>Bamenda, BitsValley, Longla Street
+                        </div>
+                        <div class="contact-info1i">
+                            <i class="fa-solid fa-phone"></i>(+237) 675 432 100
+                        </div>
+                        <div class="contact-info1i">
+                            <i class="fa-solid fa-envelope"></i>theluxehotel@gmail.com
+                        </div>
+                    </div>
+                    <div class="contact-info2">
+                        <h2>Social <span>Media Links</span></h2>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-x-twitter  x"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram insta"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f fb"></i></a>
+                            <a href="#"><i class="fa-brands fa-google ggle"></i></a>
+                            <a href="#"><i class="fa-brands fa-tiktok ttok"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Bitsvalley 2024. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- BACK TO TOP ARROW -->
+    <a href="#" class="back-to-top">
+        <span class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#fff"><path d="M435-139v-508L202-415l-63-65 342-342 341 341-64 66-232-232v508h-91Z"/></svg></span>
+    </a>
+</body>    
+</html>
