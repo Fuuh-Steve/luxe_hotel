@@ -1,0 +1,1 @@
+The Luxe Hotel project is project designed by my group and I during our internship. The project was all about creating a website for a particular hotel were customers can come and view and make their reservations.
